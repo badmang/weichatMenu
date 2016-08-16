@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22119D861D61653D009E102C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22119D851D61653D009E102C /* main.m */; };
+		22119D891D61653D009E102C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22119D881D61653D009E102C /* AppDelegate.m */; };
+		22119D8C1D61653D009E102C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22119D8B1D61653D009E102C /* ViewController.m */; };
+		22119D8F1D61653D009E102C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22119D8D1D61653D009E102C /* Main.storyboard */; };
+		22119D911D61653D009E102C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22119D901D61653D009E102C /* Assets.xcassets */; };
+		22119D941D61653D009E102C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22119D921D61653D009E102C /* LaunchScreen.storyboard */; };
+		22119D9E1D616871009E102C /* MeauView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22119D9D1D616871009E102C /* MeauView.m */; };
+		22119DA11D619A92009E102C /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22119DA01D619A92009E102C /* MenuTableViewCell.m */; };
+		22119DA41D61C625009E102C /* pop_black_backGround@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22119DA21D61C625009E102C /* pop_black_backGround@2x.png */; };
+		22119DA51D61C625009E102C /* pop_black_backGround@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22119DA31D61C625009E102C /* pop_black_backGround@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22119D811D61653D009E102C /* PopMeauDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopMeauDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22119D851D61653D009E102C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22119D871D61653D009E102C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22119D881D61653D009E102C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22119D8A1D61653D009E102C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22119D8B1D61653D009E102C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22119D8E1D61653D009E102C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22119D901D61653D009E102C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22119D931D61653D009E102C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22119D951D61653D009E102C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22119D9C1D616871009E102C /* MeauView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeauView.h; sourceTree = "<group>"; };
+		22119D9D1D616871009E102C /* MeauView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeauView.m; sourceTree = "<group>"; };
+		22119D9F1D619A92009E102C /* MenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewCell.h; sourceTree = "<group>"; };
+		22119DA01D619A92009E102C /* MenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewCell.m; sourceTree = "<group>"; };
+		22119DA21D61C625009E102C /* pop_black_backGround@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pop_black_backGround@2x.png"; sourceTree = "<group>"; };
+		22119DA31D61C625009E102C /* pop_black_backGround@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pop_black_backGround@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22119D7E1D61653D009E102C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22119D781D61653D009E102C = {
+			isa = PBXGroup;
+			children = (
+				22119D831D61653D009E102C /* PopMeauDemo */,
+				22119D821D61653D009E102C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22119D821D61653D009E102C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22119D811D61653D009E102C /* PopMeauDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22119D831D61653D009E102C /* PopMeauDemo */ = {
+			isa = PBXGroup;
+			children = (
+				22119DA21D61C625009E102C /* pop_black_backGround@2x.png */,
+				22119DA31D61C625009E102C /* pop_black_backGround@3x.png */,
+				22119D871D61653D009E102C /* AppDelegate.h */,
+				22119D881D61653D009E102C /* AppDelegate.m */,
+				22119D8A1D61653D009E102C /* ViewController.h */,
+				22119D8B1D61653D009E102C /* ViewController.m */,
+				22119D9B1D616844009E102C /* meauView */,
+				22119D8D1D61653D009E102C /* Main.storyboard */,
+				22119D901D61653D009E102C /* Assets.xcassets */,
+				22119D921D61653D009E102C /* LaunchScreen.storyboard */,
+				22119D951D61653D009E102C /* Info.plist */,
+				22119D841D61653D009E102C /* Supporting Files */,
+			);
+			path = PopMeauDemo;
+			sourceTree = "<group>";
+		};
+		22119D841D61653D009E102C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22119D851D61653D009E102C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22119D9B1D616844009E102C /* meauView */ = {
+			isa = PBXGroup;
+			children = (
+				22119D9C1D616871009E102C /* MeauView.h */,
+				22119D9D1D616871009E102C /* MeauView.m */,
+				22119D9F1D619A92009E102C /* MenuTableViewCell.h */,
+				22119DA01D619A92009E102C /* MenuTableViewCell.m */,
+			);
+			path = meauView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22119D801D61653D009E102C /* PopMeauDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22119D981D61653D009E102C /* Build configuration list for PBXNativeTarget "PopMeauDemo" */;
+			buildPhases = (
+				22119D7D1D61653D009E102C /* Sources */,
+				22119D7E1D61653D009E102C /* Frameworks */,
+				22119D7F1D61653D009E102C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopMeauDemo;
+			productName = PopMeauDemo;
+			productReference = 22119D811D61653D009E102C /* PopMeauDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22119D791D61653D009E102C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Alvin;
+				TargetAttributes = {
+					22119D801D61653D009E102C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 22119D7C1D61653D009E102C /* Build configuration list for PBXProject "PopMeauDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22119D781D61653D009E102C;
+			productRefGroup = 22119D821D61653D009E102C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22119D801D61653D009E102C /* PopMeauDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22119D7F1D61653D009E102C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22119D941D61653D009E102C /* LaunchScreen.storyboard in Resources */,
+				22119D911D61653D009E102C /* Assets.xcassets in Resources */,
+				22119DA51D61C625009E102C /* pop_black_backGround@3x.png in Resources */,
+				22119DA41D61C625009E102C /* pop_black_backGround@2x.png in Resources */,
+				22119D8F1D61653D009E102C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22119D7D1D61653D009E102C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22119D9E1D616871009E102C /* MeauView.m in Sources */,
+				22119D8C1D61653D009E102C /* ViewController.m in Sources */,
+				22119DA11D619A92009E102C /* MenuTableViewCell.m in Sources */,
+				22119D891D61653D009E102C /* AppDelegate.m in Sources */,
+				22119D861D61653D009E102C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22119D8D1D61653D009E102C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22119D8E1D61653D009E102C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22119D921D61653D009E102C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22119D931D61653D009E102C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22119D961D61653D009E102C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22119D971D61653D009E102C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22119D991D61653D009E102C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PopMeauDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yzq.PopMeauDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22119D9A1D61653D009E102C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PopMeauDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yzq.PopMeauDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22119D7C1D61653D009E102C /* Build configuration list for PBXProject "PopMeauDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22119D961D61653D009E102C /* Debug */,
+				22119D971D61653D009E102C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22119D981D61653D009E102C /* Build configuration list for PBXNativeTarget "PopMeauDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22119D991D61653D009E102C /* Debug */,
+				22119D9A1D61653D009E102C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22119D791D61653D009E102C /* Project object */;
+}
